@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summary Component</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <main class="container">
+    <div class="main-card-wrapper">
+        
+        <div class="card">
+            <h3 class="card-title">Your Result</h3>
+                <div class="result-scane">
+                    <h1 class="score">76</h1>
+                    <span class="out-of">of 100</span>
+                </div>
+                <div class="summary-section">
+                    <h2 class="summary-title">Great</h2>
+                    <p class="summary-text">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+        </div>
+       <!-- Right Card Section -->
+        <section class="card-right">
+        <h1 class="card-right-title">Summary</h1>
+        <div class="summary-list">
+            <div class="summary-item reaction">
+                
+                <div class="item-left">
+                    <img src="assets/images/icon-reaction.svg" alt="reaction-icon"
+                    class="reaction-img">
+                    <span>Reaction</span>
+                </div>
+                
+                <div class="item-right">
+                <span class="score-number">80</span>
+                <span class="out-of-score"> / 100</span>    
+                </div>
+               </div>
+
+               <div class="summary-item memory">
+
+                <div class="item-left">
+                    <img src="assets/images/icon-memory.svg" alt="memory-icon"
+                    class="memory-img">
+                    <span>Memory</span>
+                </div>
+
+                <div class="item-right">
+                    <span class="score-number">92</span>
+                    <span class="out-of-score"> / 100</span>
+                </div>
+               </div>
+
+               <div class="summary-item verbal">
+
+                <div class="item-left">
+                    <img src="assets/images/icon-verbal.svg" alt="verbal-icon"
+                    class="verbal-img">
+                    <span>Verbal</span>
+                </div>
+
+                <div class="item-right">
+                    <span class="score-number">61</span>
+                    <span class="out-of-score"> / 100</span>
+                </div>
+               </div>
+
+               <div class="summary-item visual">
+
+                <div class="item-left">
+                    <img src="assets/images/icon-visual.svg" alt="visual-icon"
+                    class="visual-img">
+                    <span>Visual</span>
+                </div>
+
+                <div class="item-right">
+                    <span class="score-number">73</span>
+                    <span class="out-of-score"> / 100</span>
+                </div>
+               </div>
+            
+        </div>
+        <button class="continue-btn">Continue</button>
+        </section>
+        </div>
+    </main>
 </body>
+
 </html>
